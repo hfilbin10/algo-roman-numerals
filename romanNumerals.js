@@ -54,6 +54,6 @@ function toRoman(num) {
   }
   return output
 }
-// same solution as toRomanLazy except add the non-standard Roman numerals (IV, IX, XL, CD, CM)
+// same solution as toRomanLazy except add the non-standard Roman numerals (IV, IX, XL, CD, CM) in object and array
 
 module.exports = { toRoman, toRomanLazy };
